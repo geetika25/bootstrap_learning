@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>tooltip and popover in bootstrap</title>
+  </head>
+  <body class="container">
+   
+   <br>
+<a href="#" data-toggle="tooltip" data-title="pure souls">Bhuvnesh Geetika</a>
+
+<br>
+<br>
+<br>
+
+<a href="#" data-toggle="tooltip" data-title="pure souls" data-placement="left">Bhuvnesh Geetika</a>
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+
+<!-- popover-->
+
+<a href="#" data-toggle="popover" data-title="this is popover" data-content="popover...............">Popover</a>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+    });
+    </script>
+  </body>
+</html>
